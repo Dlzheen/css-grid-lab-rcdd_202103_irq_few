@@ -19,7 +19,7 @@ body {
 }
 
 /* add the .bigItem class */
-.grid-area: <grid-row-start> / <grid-column-start> / <grid-row-end> / <grid-column-end>
+grid-area: <grid-row-start> / <grid-column-start> / <grid-row-end> / <grid-column-end>
 .bigItem {
   grid-area: 2 / 2 / 4 / 4;
 }
