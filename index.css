@@ -12,14 +12,14 @@ body {
  grid-template: auto / 1fr 1fr 1fr;
  grid-gap: 5px
 }
-.grid-area: <grid-row-start> / <grid-column-start> / <grid-row-end> / <grid-column-end>
+
 .grid-item {
   background-color: grey;
   border: 1px solid black;
 }
 
 /* add the .bigItem class */
+.grid-area: <grid-row-start> / <grid-column-start> / <grid-row-end> / <grid-column-end>
 .bigItem {
-  grid-row: 2 / 4;
-  grid-column: 2 / 4;
+  grid-area: 2 / 2 / 4 / 4;
 }
